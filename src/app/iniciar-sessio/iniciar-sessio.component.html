@@ -1,1 +1,17 @@
-<p>iniciar-sessio works!</p>
+<article>
+  <form class="form-login">
+    <h1>Inicia sessió</h1>
+    <label for="nom">Nom d'usuari: </label>
+    <input class="controls" type="text" name="nom" id="nom" placeholder="" required>
+    <br>
+    <label for="password">Contrasenya: </label>
+    <input class="controls" type="password" name="contrasenya" id="password" placeholder="" required>
+    <br>
+  </form>
+  <br>
+  <br>
+  <p>Estic d'acord amb els <a routerLink="/condicions" routerLinkActive="active" >Terminis i Condicions</a> </p>
+  <p>No tens un compte? <a routerLink="/registre" routerLinkActive="active">Registra't</a> </p>
+  <button id="login" type="submit" value="iniciaSessió">Iniciar Sessió</button>
+  <button id="logout" type="submit" value="tancar sessio">Tancar sessió </button>
+</article>
