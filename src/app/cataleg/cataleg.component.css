@@ -11,8 +11,8 @@ article {
 }
 
 .imatge{
-  height: 40%;
-  width: 16%;
+  height: 60%;
+  width: 46%;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -39,3 +39,9 @@ article {
   display: inline-block;
 }
 
+#categoria{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  height: 30px;
+}

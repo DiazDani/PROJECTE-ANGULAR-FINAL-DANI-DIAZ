@@ -13,6 +13,7 @@ import {CondicionsComponent} from "./condicions/condicions.component";
 import {ContacteComponent} from "./contacte/contacte.component";
 import { AppRoutingModule } from './app-routing.module';
 import { IniciarSessioComponent } from './iniciar-sessio/iniciar-sessio.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -28,11 +29,12 @@ import { IniciarSessioComponent } from './iniciar-sessio/iniciar-sessio.componen
     MenuComponent,
     RegistreClientComponent
   ],
-  imports: [
-    BrowserModule,
-    HttpClientModule,
-    AppRoutingModule
-  ],
+    imports: [
+        BrowserModule,
+        HttpClientModule,
+        AppRoutingModule,
+        FormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

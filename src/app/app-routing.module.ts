@@ -10,7 +10,7 @@ import { IniciarSessioComponent} from "./iniciar-sessio/iniciar-sessio.component
 import * as path from "path";
 
 const routes: Routes=[
-  {path: 'cistella', component: CistellaComponent},
+ {path: 'cistella', component: CistellaComponent},
   {path: 'cataleg', component: CatalegComponent},
   {path: 'mainPage', component: MenuComponent},
   {path: 'condicions', component: CondicionsComponent},

@@ -1,11 +1,3 @@
-.caixa{
-  background: white;
-  width: 320px;
-  height: 320px;
-  align-content: space-between;
-  margin: 35px;
-}
-
 .imatge{
   display: inline-flex;
   height: 38%;
@@ -18,9 +10,44 @@
 
 article {
   border: 1px darkred;
-  height: 70%; width: 70%;
   background-color: brown;
+  height: 70%;
+  width: 100%;
   display: block;
-  margin: 0 auto;
-  text-align: center;
+  padding-bottom: 10%;
 }
+
+.imatge img {
+  height: 140px;
+  width: auto;
+}
+
+.imatge h3{
+  color: green;
+}
+
+.caixa{
+  background: white;
+  width: 250px;
+  height: 300px;
+  margin: 20px;
+  text-align: center;
+  flex-direction: row;
+  display: inline-block;
+}
+.caixa2{
+  background: white;
+  height: 30px;
+  margin: 20px;
+  text-align: center;
+  flex-direction: row;
+  display: block;
+}
+
+.text{
+  padding-top: 5%;
+  color: #f2f2f2;
+  text-align: center;
+  font-style: italic;
+}
+

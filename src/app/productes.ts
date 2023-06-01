@@ -1,21 +1,21 @@
-export interface Product {
+export interface Producte {
   name: string;
   preu: number;
   img: string;
   quantity: number;
   type: string;
 }
-export const products= [
+export const productes= [
   {
     name:"Cava codorniu Brut",
-    preu: 7.95,
+    preu: 8.00,
     img: "assets/imatges/fotos%20cavas/cava%20u.png",
     quantity:1,
     type: "cava"
   },
   {
     name:"Cava Marfil brut nature",
-    preu: 8.15,
+    preu: 8.25,
     img: "assets/imatges/fotos%20cavas/cava%20dos.png",
     quantity: 1,
     type: "cava"
@@ -29,65 +29,65 @@ export const products= [
   },
   {
     name:"Ginebra Beefeater",
-    preu:16.81 ,
+    preu:17.00 ,
     img: "assets/imatges/fotos%20licors/gin/gin%20u.png",
     quantity:1 ,
     type: "Gin"
   },
   {
     name:"Bombay Sapphire",
-    preu: 15.95,
+    preu: 16.00,
     img: "assets/imatges/fotos%20licors/gin/gin%20dos.png",
     quantity: 1,
     type: "Gin"
   },
   {
     name:"Ginebra Bulldog",
-    preu:21.81 ,
+    preu:22.00 ,
     img: "assets/imatges/fotos%20licors/gin/gin%20tres.png",
     quantity:1 ,
     type: "Gin"
   },  {
     name:"Ron añejo Brujal",
-    preu: 12.33,
+    preu: 12.50,
     img: "assets/imatges/fotos%20licors/ron/ron%20u.png",
     quantity: 1,
     type: "Ron"
   },{
     name:"Ron Barceló Añejo",
-    preu: 13.89,
+    preu: 14.00,
     img: "assets/imatges/fotos%20licors/ron/ron%20tres.png",
     quantity: 1,
     type: "Ron"
   },{
     name:"Havana Club",
-    preu: 13.89,
+    preu: 14.00,
     img: "assets/imatges/fotos%20licors/ron/ron%20dos.png",
     quantity:1 ,
     type: "Ron"
   },
   {
     name:"El Miracle Nº03",
-    preu:5.79 ,
+    preu:6.00 ,
     img: "assets/imatges/fotos%20vins/vi%20blanc/blanc%20u.png",
     quantity:1 ,
     type: "vi_blanc"
   },{
     name:"Blanco de María",
-    preu:  6.20,
+    preu:  6.25,
     img: "assets/imatges/fotos%20vins/vi%20blanc/blanc%20dos.png",
     quantity:1 ,
     type: "vi_blanc"
   },
   {
     name:"Chaval Macabeo",
-    preu: 7.90,
+    preu: 8.00,
     img: "assets/imatges/fotos%20vins/vi%20blanc/blanc%20tres.png",
     quantity:1 ,
     type: "vi_blanc"
   },{
     name:"Viña Pomal",
-    preu:  20.07,
+    preu:  20.00,
     img: "assets/imatges/fotos%20vins/vi%20negre/negre%20u.png",
     quantity:1 ,
     type: "vi_negre"
@@ -105,37 +105,37 @@ export const products= [
     type: "vi_negre"
   },{
     name:"Quelías Rose",
-    preu:7.10 ,
+    preu:7.25 ,
     img: "assets/imatges/fotos%20vins/vi rosat/rosat%20u.png",
     quantity:1 ,
     type: "vi_rosat"
   },{
     name:"Barton & Gustier",
-    preu:11.90 ,
+    preu:12.00 ,
     img: "assets/imatges/fotos%20vins/vi rosat/rosat%20dos.png",
     quantity:1 ,
     type: "vi_rosat"
   },{
     name:"Faustino VII",
-    preu: 8.90 ,
+    preu: 9.00 ,
     img: "assets/imatges/fotos%20vins/vi rosat/rosaat%20tres.png",
     quantity:1 ,
     type: "vi_rosat"
   },{
     name:"Red Label whisky",
-    preu:15.90 ,
+    preu:16.00 ,
     img: "assets/imatges/fotos%20licors/whiskey/wiskey%20tres.png",
     quantity:1 ,
     type: "whisky"
   },{
     name:"Jack Daniels",
-    preu: 20.90,
+    preu: 21.00,
     img: "assets/imatges/fotos%20licors/whiskey/wiskey%20dos.png",
     quantity:1 ,
     type: "whisky"
   },{
     name:"Whisky Ballentines",
-    preu: 11.90,
+    preu: 12.00,
     img: "assets/imatges/fotos%20licors/whiskey/wiskey%20u.png",
     quantity:1 ,
     type: "whisky"

@@ -1,5 +1,29 @@
 <body>
-<li>
-</li>
+<article>
+  <h4 *ngIf="items.length ===0" >
+    <div class="text">
+      <h2><p>La teva cistella està buida!</p></h2>
+      <p>Però aixó es pot arreglar molt fàcilment</p>
+      <button routerLink="/cataleg">Ves al cataleg</button>
+    </div>
+  </h4>
+  <div *ngIf="items.length>0">
+  <div *ngFor="let item of items; let i=index" class="caixa">
+      <img src="{{item.img}}" alt="" class="imatge">
+      <p>{{item.name}}</p>
+    <input type="number" min="1" class="qty" [value]="item.quantity" (blur)="ValidateInput($event,i)" id="test">
+      <p>Preu: {{item.preu*item.quantity}}€</p>
+    <button (click)="comprarItem(i)" class="boton">Comprar ara</button>
+    <button (click)="esborrar(i)" class="boton">Esborrar</button>
+
+  </div>
+    <div class="caixa2">
+      Total de la compra: {{totalCompra}}€
+    </div>
+    <div class="text">
+      <button (click)="GraciesPerComprar()">Comprar tot</button>
+    </div>
+  </div>
+</article>
 
 </body>
