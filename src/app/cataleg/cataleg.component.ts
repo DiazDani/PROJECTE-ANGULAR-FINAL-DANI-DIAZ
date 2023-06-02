@@ -20,7 +20,7 @@ export class CatalegComponent {
     this.s.afegirCistella(product);
     window.alert((`${product.name} ha sigut afegit a la teva cistella.`))
   }
-  filtrarPorCategoria(categoria: any) {
+  filtrarPerCategoria(categoria: any) {
     // @ts-ignore
     this.categoria = event.target.value;
     this.productesFiltrats = this.productes.filter(producte => producte.type === this.categoria || this.categoria === 'todos');
